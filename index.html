@@ -1,28 +1,155 @@
-<!doctype html>
-<html lang="ja">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>XyLe's Repo</title>
-  <link rel="stylesheet" href="css\style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='XyLe GitHub Pages'>
+  <meta property='og:url' content='https://xyle-gbp.github.io'>
+  <meta property='og:description' content='XyLe Portfolio'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="XyLe GitHub Pages" />
+  <title>XyLe Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”https://xyle-gbp.github.io” />
 </head>
+
 <body>
-  <header>
-    <h1 class="title">XyLe's Repo</h1>
-    <nav class="nav">
-      <ul class="menu-group">
-        <li class="menu-item"><a href="https://github.com/xyle-gbp">GitHub</a></li>
-        <li class="menu-item"><a href="https://xyle-official.com">Website</a></li>
-      </ul>
-    </nav>
-  </header>
-  <div class="content">
-    <p>Tested.</p>
- 
-    <p>Tested.</p>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="header-inner">
+        <h1 class="header-logo">
+          <a href=".">XyLe GitHub Pages</a>
+        </h1>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item"><a href="#works">WORKS</a></li>
+            <li class="header-nav-item"><a href="#skill">SKILL</a></li>
+            <li class="header-nav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- split -->
+      <div class="split">
+        <div class="split-body">
+          <p class="split-title">GitHub Repo</p>
+          <p class="split-text">
+            趣味でプログラミングをやっている者です。<br>
+            主に誰得なのか分からないプログラムを公開しています。<br>
+            <br>
+            ※本リポジトリで公開されているプログラムは全てMITライセンス下でリリースされています。
+          </p>
+        </div>
+        <div class="split-img"></div>
+      </div>
+      <!-- /split -->
+
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="inner">
+          <h2 class="title">WORKS</h2>
+          <div class="works-list">
+            <a class="works-item" href="https://github.com/xyle-gbp/waifu2x-ncnn-vulkan-GUI">
+              <p class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></p>
+              <p class="works-name">waifu2x-ncnn-vulkan-GUI Edition</p>
+              <p class="works-info">XyLe / nihui</p>
+            </a>
+            <a class="works-item" href="https://github.com/xyle-gbp/ATRACTool">
+              <p class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></p>
+              <p class="works-name">ATRACTool</p>
+              <p class="works-info">XyLe</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /works -->
+
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="inner">
+          <h2 class="title">SKILL</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">C/C++/C#</h3>
+                <p class="skill-text">
+                  主に自プログラムはこれらの言語で組んでいます</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">WordPress</h3>
+                <p class="skill-text">
+                  自サイトではWordPressを使用しています</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">foobar2000 TF</h3>
+                <p class="skill-text">
+                  Title Formattingを使用し、UI等を弄っています</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+	  
+	  <!-- Twitter Timeline -->
+	  <section class="twitter section" id="twitter">
+		<div class="inner">
+		  <div class="tweet">
+			<a class="twitter-timeline" data-lang="ja" data-width="600" data-height="600" href="https://twitter.com/X1LeP?ref_src=twsrc%5Etfw">Tweets by X1LeP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		  </div>
+		</div>
+	  </section>
+	  <!-- /Twitter Timeline -->
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="inner">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            ツールやサイト、リポジトリに関するお問い合わせは、<br class="sp-only">SNSかサイト内フォーム、またはメールにてお願いいたします。
+          </p>
+          <div class="contact-list">
+            <a class="contact-item" href="https://twitter.com/X1LeP" target="_blank" rel="noopener">Twitter</a>
+            <a class="contact-item" href="https://xyle-official.com/contact" target="_blank" rel="noopener">Website</a>
+            <span class="contact-item">info@xyle-official.com</span>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+	  
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
     <!-- footer -->
-    <footer>
-    	<p>Copyright © 2021 XyLe All rights reserved.</p>
+    <footer class="footer">
+      <div class="copyright">&copy; 2021 XyLe</div>
     </footer>
-   </div>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>
